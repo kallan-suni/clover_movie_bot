@@ -526,13 +526,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("✛ 𝗔𝖽𝖽 𝗠𝖾 𝗧𝗈 𝗬𝗈𝗎𝗋 𝗚𝗋𝗈𝗎𝗉 ✛", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/mkn_bots_updates")
+            InlineKeyboardButton("♚ 𝗗𝖾𝗏", url="https://t.me/dz_offline_tg"), 
+            InlineKeyboardButton("⌬  𝗦𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/+iEbhY7mM4oE1OTVl")
             ],[
-            InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help1"),
-            InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
+            InlineKeyboardButton("〄 𝗛𝖾𝗅𝗉", callback_data="help"),
+            InlineKeyboardButton("✇ 𝗔𝖻𝗈𝗎𝗍", callback_data="about")
+            ],[
+            InlineKeyboardButton("⎋ 𝗜𝗇𝗅𝗂𝗇𝖾 𝗦𝖾𝖺𝗋𝖼𝗁 𝗠𝗈𝖻𝖾 ⎋", switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.edit_message_media(
@@ -568,21 +570,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS), "Select your required mode from below!"),
             reply_markup=reply_markup,           
         )
-    elif query.data == "help1":
+    elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('⚙️ 𝙰𝙳𝙼𝙸𝙽 𝙿𝙰𝙽𝙴𝙻 ⚙️', callback_data='admin')            
+            InlineKeyboardButton('⚙️ 𝗔𝖽𝗆𝗂𝗇 𝗣𝖺𝗇𝖾𝗅 ⚙️', callback_data='admin')            
             ],[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('𝗠𝖺-𝗙𝗂𝗅𝗍𝖾𝗋', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝗔𝗎-𝗙𝗂𝗅𝗍𝖾𝗋', callback_data='autofilter'),
+            InlineKeyboardButton('𝗖𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct')
             ],[                       
-            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele'),
-            InlineKeyboardButton('𝚂𝙷𝙰𝚁𝙴-𝚃𝙴𝚇𝚃', callback_data='sharetxt'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata')
+            InlineKeyboardButton('𝗧𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁', callback_data='tele'),
+            InlineKeyboardButton('𝗦𝗁𝖺𝗋𝖾-𝗧𝖾𝗑𝗍', callback_data='sharetxt'),
+            InlineKeyboardButton('𝗙𝗂𝗅𝖾-𝗦𝗍𝗈𝗋𝖾', callback_data='newdata')
             ],[           
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss'),           
-            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purges')
+            InlineKeyboardButton('𝗝𝗌𝗈𝗇𝖾', callback_data='son'),
+            InlineKeyboardButton('𝗧𝗍𝗌', callback_data='ttss'),           
+            InlineKeyboardButton('𝗣𝗎𝗋𝗀𝖾', callback_data='purges')
             ],[
             InlineKeyboardButton('.⇇𝗕𝖺𝖼𝗄', callback_data='start'),
             InlineKeyboardButton('𝗦𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
@@ -606,7 +608,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝗖𝖺𝗋𝖻𝗈𝗇', callback_data='carb'),
             InlineKeyboardButton('𝗙𝗈𝗇𝗍', callback_data='fond'),
-            InlineKeyboardButton('𝚈𝚃-𝙳𝙻', callback_data='ytdl')
+            InlineKeyboardButton('𝗬𝗍-𝗗𝗅', callback_data='ytdl')
             ],[
             InlineKeyboardButton('.⇇𝗕𝖺𝖼𝗄', callback_data='help'),
             InlineKeyboardButton('𝗦𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
