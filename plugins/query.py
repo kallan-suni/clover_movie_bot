@@ -583,30 +583,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
             InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss'),           
             InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purges')
-          ]]
-         reply_markup = InlineKeyboardMarkup(buttons)             
-        await query.message.edit_text(                     
-            text=script.HELP_TXT.format(query.from_user.mention),
+        ]]             
+        reply_markup = InlineKeyboardMarkup(buttons)        
+        await query.edit_message_media(
+            InputMediaPhoto(random.choice(PICS), "Select your required mode from below!"),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )      
+        )
     elif query.data == "help2":
-        buttons = [[
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes'),
-            InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image'),
-            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings')                                   
+        buttons = [[ 
+            InlineKeyboardButton('𝗣𝖺𝗌𝗍𝖾', callback_data='pastes'),
+            InlineKeyboardButton("𝗜𝗆𝖺𝗀𝖾", callback_data='image'),
+            InlineKeyboardButton('𝗣𝗂𝗇𝗀', callback_data='pings')                                   
             ],[                               
-            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
-            InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies'),
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin')
+            InlineKeyboardButton('𝗠𝗎𝗍𝖾', callback_data='restric'),
+            InlineKeyboardButton('𝗞𝗂𝖼𝗄', callback_data='zombies'),
+            InlineKeyboardButton('𝗣𝗂𝗇', callback_data='pin')
             ],[
-            InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carb'),
-            InlineKeyboardButton('𝙵𝙾𝙽𝙳', callback_data='fond'),
+            InlineKeyboardButton('𝗖𝖺𝗋𝖻𝗈𝗇', callback_data='carb'),
+            InlineKeyboardButton('𝗙𝗈𝗇𝗍', callback_data='fond'),
             InlineKeyboardButton('𝚈𝚃-𝙳𝙻', callback_data='ytdl')
             ],[
-            InlineKeyboardButton('𝗖𝗅𝗈𝗌𝖾', callback_data='close_data'),
+            InlineKeyboardButton('.⇇𝗕𝖺𝖼𝗄', callback_data='help'),
             InlineKeyboardButton('𝗦𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
-            InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')           
+            InlineKeyboardButton('𝗖𝗅𝗈𝗌𝖾✘', callback_data='close_data')           
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)             
         await query.edit_message_media(  
