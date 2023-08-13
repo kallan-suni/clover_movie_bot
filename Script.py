@@ -9,12 +9,10 @@ class script(object):
 <b>㊂ 𝗕𝗈𝗍 𝗦𝖾𝗋𝗏𝖾𝗋 : 𝗔𝗇𝗒𝗐𝗁𝖾𝗋𝖾</b>
 <b>㊂ 𝗕𝗎𝗂𝗅𝖽 𝗩𝖾𝗋𝗌𝗂𝗈𝗇 : 𝗔𝗇𝖽𝗋𝗂𝗒𝖺 [𝗏3.0.0 ]</b>"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-- 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
-
+    SOURCE_TXT = """<b>🎯𝗜𝖿 𝗬𝗈𝗎 𝗙𝖺𝖼𝗂𝗇𝗀 𝗔𝗇𝗒 𝗜𝗌𝗌𝗎𝖾 𝗜𝗇 𝗧𝗁𝖾 𝗥𝖾𝗉𝗈 𝗖𝗈𝗇𝗍𝖺𝖼𝗍 𝗠𝖾..📌
 <b>DEVS:</b>
-- 𝙳𝚎𝚟 1<a href=https://t.me/mr_MKN>𝙼𝚛.𝙼𝙺𝙽 𝚃𝙶</a>
-- 𝙳𝚎𝚟 2<a href=https://t.me/AboutAadhi>𝙰𝙰𝙳𝙷𝙸</a>"""
+-  𝗗𝖾𝗏 1<a href=https://t.me/dz_offline_tg>ꜱᴅ ʙᴏᴛᴢ [#Offline] 🇮🇳</a>
+-  𝗗𝖾𝗏 2<a href=https://t.me/dxfilter>ꪶ‌ꪆ KD Tech [#Offline] 🇮🇳</a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
