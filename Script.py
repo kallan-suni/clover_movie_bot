@@ -10,9 +10,9 @@ class script(object):
 <b>㊂ 𝗕𝗎𝗂𝗅𝖽 𝗩𝖾𝗋𝗌𝗂𝗈𝗇 : 𝗔𝗇𝖽𝗋𝗂𝗒𝖺 [𝗏3.0.0 ]</b>"""
 
     SOURCE_TXT = """<b>🎯𝗜𝖿 𝗬𝗈𝗎 𝗙𝖺𝖼𝗂𝗇𝗀 𝗔𝗇𝗒 𝗜𝗌𝗌𝗎𝖾 𝗜𝗇 𝗧𝗁𝖾 𝗥𝖾𝗉𝗈 𝗖𝗈𝗇𝗍𝖺𝖼𝗍 𝗠𝖾..📌
-<b>DEVS:</b>
--  𝗗𝖾𝗏 1<a href=https://t.me/dz_offline_tg>ꜱᴅ ʙᴏᴛᴢ [#Offline] 🇮🇳</a>
--  𝗗𝖾𝗏 2<a href=https://t.me/dxfilter>ꪶ‌ꪆ KD Tech [#Offline] 🇮🇳</a>"""
+<b>𝗗𝖾𝗏𝗌:</b>
+<b>㊂  𝗗𝖾𝗏 ❶</b><b><a href=https://t.me/dz_offline_tg>ꜱᴅ ʙᴏᴛᴢ [#Offline] 🇮🇳</a></b>
+<b>㊂ 𝗗𝖾𝗏 ❷</b><b><a href=https://t.me/dxfilter>ꪶ‌ꪆ KD Tech [#Offline] 🇮🇳</a></b>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
